@@ -1,0 +1,28 @@
+.basket{
+    position: fixed;
+    background: rgba(255,255,255,.8);
+    top:0;
+    right: 0;
+    margin: 20px;
+    border: 1px solid rgba(0,0,0,.1);
+}
+.basket-item, .basket h3{
+    padding: 5px 10px;
+}
+.basket-item span,
+.basket-item a {
+    padding: 0 7px
+}
+.food-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.food {
+    margin-top: 15px;
+}
+.ingredients {
+    color: black;
+    font-size: 18px;
+    line-height: 21px;
+    max-width: 400px;
+}
